@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid black;
+}
+.container{
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+.header{
+    text-align: center ;
+    background-color: rgb(109, 196, 135);
+}
+.art{
+    background-color: rgb(146, 146, 187);
+    float: left;
+    padding: 2px;
+    width: 33.33%;
+    overflow: scroll;
+    max-height: 150px;
+}
+.feactures{
+    background-color: rgb(161, 102, 102);
+}
+.bottom{
+    clear: left;
+    background-color: rgb(199, 147, 110);
+}
